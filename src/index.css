@@ -1,0 +1,49 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply antialiased text-sm text-gray-600 dark:text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-900 dark:text-white font-medium tracking-tight;
+  }
+
+  h1 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  h2 {
+    @apply text-lg sm:text-xl;
+  }
+
+  p {
+    @apply text-sm leading-relaxed;
+  }
+
+  a {
+    @apply text-base;
+  }
+}
+
+@layer components {
+  .container-width {
+    @apply max-w-3xl mx-auto px-4 sm:px-6;
+  }
+  .section {
+    @apply py-6 sm:py-8;
+  }
+  .card {
+    @apply transition-all duration-200;
+  }
+}
