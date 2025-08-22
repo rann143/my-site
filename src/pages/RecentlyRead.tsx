@@ -24,42 +24,16 @@ export default function RecentlyRead() {
     const mockBooks: BookCategories = {
       industry: [
         {
-          title: "The Pragmatic Programmer",
-          author: "David Thomas & Andrew Hunt",
-          dateFinished: "December 2024",
-          rating: 5,
-        },
-        {
-          title: "System Design Interview",
-          author: "Alex Xu",
-          dateFinished: "November 2024",
-          rating: 4,
-        },
-        {
-          title: "You Don't Know JS",
-          author: "Kyle Simpson",
-          dateFinished: "October 2024",
-          rating: 5,
+          title: "Inside the Machine",
+          author: "Jon Stokes",
+          dateFinished: "May 2025",
         },
       ],
       personal: [
         {
-          title: "The Seven Husbands of Evelyn Hugo",
-          author: "Taylor Jenkins Reid",
-          dateFinished: "December 2024",
-          rating: 5,
-        },
-        {
-          title: "Where the Crawdads Sing",
-          author: "Delia Owens",
-          dateFinished: "November 2024",
-          rating: 4,
-        },
-        {
-          title: "The Alchemist",
-          author: "Paulo Coelho",
-          dateFinished: "October 2024",
-          rating: 4,
+          title: "Children of Time",
+          author: "Adrian Tchaikovsky",
+          dateFinished: "August 2025",
         },
       ],
     };
@@ -103,10 +77,9 @@ export default function RecentlyRead() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-3xl font-bold mb-2 dark:text-white">Recently Read</h1>
-        <p className="text-gray-600 dark:text-gray-300">
-          Books I've finished reading recently
-        </p>
+        <h1 className="text-3xl font-bold mb-2 dark:text-white">
+          Recently Read
+        </h1>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">

@@ -11,9 +11,12 @@ export default function RecentlyPlayed() {
 
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4 dark:text-white">
+      <h2 className="text-2xl font-bold mb-2 dark:text-white">
         Recently Played
       </h2>
+      <p className="text-gray-600 dark:text-gray-300 mb-4">
+        Do you also find it harder to discover new music the older you get?
+      </p>
       <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
         {spotifyItems.map((url, index) => (
           <div

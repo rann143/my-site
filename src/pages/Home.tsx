@@ -16,12 +16,11 @@ export default function Home() {
             style={{ fontSize: "2rem" }}
           />
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-            I'm a software engineer passionate about building great user experiences 
-            and solving complex problems. I love working with modern web technologies, 
-            reading both technical and fiction books, and discovering new music.
+            Growing my software skills while attempting to escape poor posture.
+            Learner & do-er of cool things.
           </p>
         </div>
-        
+
         <WhatImUpTo />
         <CurrentlyReading />
         <RecentlyPlayed />

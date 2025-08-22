@@ -23,16 +23,16 @@ export default function CurrentlyReading() {
     const mockBooks: BookCategories = {
       industry: [
         {
-          title: "Clean Code",
-          author: "Robert C. Martin",
+          title: "Operating Systems: Three Easy Pieces",
+          author: "Andrea and Remzi Arpaci-Dusseau",
           progress: 23,
         },
       ],
       personal: [
         {
-          title: "Atomic Habits",
-          author: "James Clear",
-          progress: 45,
+          title: "When Breathe Becomes Air",
+          author: "Paul Kalanithi",
+          progress: 1,
         },
       ],
     };
@@ -64,9 +64,12 @@ export default function CurrentlyReading() {
 
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-6 dark:text-white">
+      <h2 className="text-2xl font-bold mb-2 dark:text-white">
         Currently Reading
       </h2>
+      <p className="text-gray-600 dark:text-gray-300 mb-4">
+        *Holding myself accountable on my book goals
+      </p>
 
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Industry/Technical Books */}
