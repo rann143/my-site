@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import CurrentlyReading from "../components/CurrentlyReading";
 import RecentlyPlayed from "../components/RecentlyPlayed";
 import WhatImUpTo from "../components/WhatImUpTo";
+import headshotImage from "../assets/headshot-lined.png";
 
 export default function Home() {
   return (
@@ -19,6 +20,15 @@ export default function Home() {
             Growing my software skills while attempting to escape poor posture.
             Learner & do-er of cool things.
           </p>
+
+          <div className="mt-6 flex justify-center">
+            <img
+              src={headshotImage}
+              alt="Dan Roderman headshot"
+              className="w-48 h-48 object-cover dark:rounded-full p-1 pl-4 dark:bg-white"
+              style={{ objectPosition: "center top" }}
+            />
+          </div>
         </div>
 
         <WhatImUpTo />
