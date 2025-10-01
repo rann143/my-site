@@ -17,8 +17,8 @@ export default function Home() {
             style={{ fontSize: "2rem" }}
           />
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-            Growing my software skills while attempting to escape poor posture.
-            Learner & do-er of cool things.
+            Growing my sofware engineering skills while trying to escape poor
+            posture.
           </p>
 
           <div className="mt-6 flex justify-center">
